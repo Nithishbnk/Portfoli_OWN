@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Nithish updated
+          Itha updated
         </a>
       </header>
     </div>
