@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React JS APP by Nithish And Itha feature1 updated  dev 1 updating
+          Nithish updated
         </a>
       </header>
     </div>
