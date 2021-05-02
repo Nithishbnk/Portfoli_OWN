@@ -1,0 +1,11 @@
+.name{
+    text-align: left;
+}
+@media screen and (min-width: 48em){
+    .name{
+        text-align: justify;
+    }
+}
+.jumbotron {
+    min-height: 620px;
+}
