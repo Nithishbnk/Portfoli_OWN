@@ -6,8 +6,8 @@ class TopSection extends Component {
     return (
 <div>
 
-      <div class="jumbotron jumbotron-fluid">
-        <div class="container">
+      <div class="jumbotron  jumbotron-fluid">
+        <div class="container con1">
                         <div class="row row1 w-50">
                             <div class="col colname">
                               <div class="text-left text-capitalize">

@@ -6,10 +6,11 @@
         text-align: justify;
     }
 }
-.container
+.con1
 {height:410px;}
 .jumbotron {
     min-height: 620px;
+    margin-bottom:0;
     /*background: url("http://i.stack.imgur.com/kx8MT.gif") no-repeat center center;*/
     -webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
@@ -22,10 +23,10 @@
 {
   margin-top: 25%;
 }
-.row1{height:300px;}
+.row1{height:200px;}
 .Scrolldown{align: center;
 margin-top: 90px;}
-@media screen and (max-width: 600px){
+@media screen and (min-width: 48em){
   .Scrolldown{align: center;
   margin-top: 90px;
   padding-left:30px;
