@@ -4,14 +4,31 @@ class TopSection extends Component {
   render() {
 
     return (
-      <div>
-      <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-          <h1 class="display-4 name">Fluid jumbotron</h1>
-          <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+<div>
+
+      <div class="jumbotron  jumbotron-fluid">
+        <div class="container con1">
+                        <div class="row row1 w-50">
+                            <div class="col colname">
+                              <div class="text-left text-capitalize">
+                                <h1>B. Nithish Kumar</h1>
+                              </div>
+                              <p class="text-left text-capitalize">Software Develovper</p>
+                            </div>
+                        </div>
+                        <div class="Scroll">
+                            <div class="Scrolldown">
+                              <div class="chevron"></div>
+                              <div class="chevron"></div>
+                              <div class="chevron"></div>
+                            </div>
+                        </div>
+
         </div>
       </div>
+
 </div>
+
     );
 
   }

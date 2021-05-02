@@ -1,0 +1,25 @@
+.progress-bar{width:79%;}
+.progress{width:80%; align:left; margin-top: 7px;}
+.skill-title{text-align: left; color:white;}
+.skill-progress{height:50px;}
+.card1{
+  width:99%;
+  margin: 10px auto;
+          float: none;
+}
+.card-body
+{
+  margin-top:0;
+  background-color: black;
+}
+.con2
+{
+  margin-top:0px;
+}
+.card-header
+{
+  background-color: black;
+  color: white;
+  font-size: 30px;
+  padding-top: 30px;
+}
