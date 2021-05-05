@@ -1,28 +1,56 @@
-import React, {Component} from 'react'
+import React,{Component} from 'react';
+import { useState, useEffect } from 'react';
+
 import "./SkillProgress.css"
 import { Progress } from 'reactstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import 'font-awesome/css/font-awesome.min.css';
 import AOS from "aos";
 import "aos/dist/aos.css";
+import $ from 'jquery';
 class SkillProgress extends Component {
   state = {
     progress: 0,
   }
+
+  increaseBar()
+  {
+    let counter = 1;
+      const interval = setInterval(() => {
+          counter++;
+          this.setState({
+              progress : counter
+          })
+          if(counter == 60) {
+              clearInterval(interval);
+          }
+      }, 100);
+  }
+
   componentDidMount() {
   AOS.init({
     duration : 2000
   });
-  let counter = 1;
-    const interval = setInterval(() => {
-        counter++;
-        this.setState({
-            progress : counter
-        })
-        if(counter == 60) {
-            clearInterval(interval);
-        }
-    }, 100);
-}
+  console.log('incompdidmount')
+  const interval = setInterval(() => {
+
+    var s = $(window).scrollTop(),
+    d = $(document).height(),
+    c = $(window).height();
+    var scrollPercent = (s / (d-c)) * 100;
+    var position = scrollPercent;
+    console.log('searching position'+position)
+                      if((position>=24)&&position<=40)
+                      {
+                        this.increaseBar(); clearInterval(interval);
+                      }
+
+  }, 100);
+
+
+  }
+
+
 
   render() {
 
@@ -54,8 +82,8 @@ class SkillProgress extends Component {
                                       <div class="row">
                                           <div class="col-4">
                                                 <div class="skill-title">
-                                                   <i class="fa fa-sm fa-fw fa-hashtag"></i>
-                                                   <span>HTML</span>
+                                                   <i class="fa fa-html5" aria-hidden="true"></i>
+                                                   <span> HTML</span>
                                                 </div>
                                           </div>
                                           <div class="col-8">
@@ -67,8 +95,9 @@ class SkillProgress extends Component {
                                       <div class="row">
                                           <div class="col-4">
                                                 <div class="skill-title">
-                                                   <i class="fa fa-sm fa-fw fa-hashtag"></i>
-                                                   <span>CSS</span>
+
+                                                   <i class="fa fa-css3" aria-hidden="true"></i>
+                                                   <span> CSS</span>
                                                 </div>
                                           </div>
                                           <div class="col-8">

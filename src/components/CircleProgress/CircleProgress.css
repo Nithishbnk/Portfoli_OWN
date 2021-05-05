@@ -10,6 +10,7 @@
     box-shadow: 2px;
     position: relative
 }
+.extra{padding-right: 0;width:290px;}
 .head1{color:white;}
 .progress1:after {
     content: "";

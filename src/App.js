@@ -6,6 +6,9 @@ import { faCheckSquare, faCoffee } from '@fortawesome/free-solid-svg-icons'
 import TopSection from "./components/TopSection/TopSection";
 import SkillProgress from "./components/SkillProgress/SkillProgress";
 import CircleProgress from "./components/CircleProgress/CircleProgress";
+import Timeline from "./components/Timeline/Timeline";
+import Certifications from "./components/Certifications/Certifications";
+import Footer from "./components/Footer/Footer";
 library.add(fab, faCheckSquare, faCoffee)
 function App() {
   return (
@@ -14,6 +17,9 @@ function App() {
       <div class="SkillCircle">
           <SkillProgress/>
           <CircleProgress/>
+          <Timeline/>
+          <Certifications/>
+          <Footer/>
       </div>
     </div>
   );

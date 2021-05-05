@@ -1,0 +1,42 @@
+.Certifications{background-color: #000000;
+background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
+padding-bottom: 10px;
+}
+.progress5 {
+
+    margin-bottom: 10px
+}
+.skill-progress{height:20%;}
+.progress5 .skill {
+    font: normal 12px "Open Sans Web";
+    line-height: 32px;
+    padding: 0;
+    margin: 0 0 0 20px;
+    text-transform: uppercase
+}
+
+.progress5 .skill .val {
+    float: right;
+    font-style: normal;
+    margin: 0 20px 0 0
+}
+.title{color:black;}
+.progress-bar {
+    text-align: center;
+
+}
+.cert{margin:5%; height:85%; width:80%;
+  transition: 0.3s;
+  border-radius: 25px;background-color: #f9fcff;
+background-image: linear-gradient(147deg, #f9fcff 0%, #dee4ea 74%);
+}
+.lang{margin-top:7%;margin-bottom:5%;margin-left:5%;margin-right:5%;height:85%;box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 25px;background-color: #aecad6;
+background-image: linear-gradient(315deg, #aecad6 0%, #b8d3fe 74%);
+}
+  .cert1{height:10%;}
+  .cert:hover, .lang:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.Name1{color:black; font-weight: 900px; font-size: 30px;padding-top:4px; }
