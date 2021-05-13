@@ -14,13 +14,13 @@ function App() {
   return (
     <div className="App">
       <TopSection/>
-      <div class="SkillCircle">
+
           <SkillProgress/>
           <CircleProgress/>
           <Timeline/>
           <Certifications/>
           <Footer/>
-      </div>
+    
     </div>
   );
 }
