@@ -66,8 +66,8 @@ Salesforce Marketing cloud.</p>
      </div>
    </div>
    <div class="row no-gutters social-container">
-     <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-facebook"></span><span>Facebook</span></a></div>
-     <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-instagram"></span><span>instagram</span></a></div>
+     <div class="col"><a class="social-inner" href="https://m.facebook.com/nithish.bommireddy?ref=bookmarks"><span class="icon mdi mdi-facebook"></span><span>Facebook</span></a></div>
+     <div class="col"><a class="social-inner" href="https://www.instagram.com/nithu_since_1999/"><span class="icon mdi mdi-instagram"></span><span>instagram</span></a></div>
      <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-twitter"></span><span>twitter</span></a></div>
    </div>
  </footer>

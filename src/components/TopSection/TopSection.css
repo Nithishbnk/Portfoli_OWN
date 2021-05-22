@@ -16,14 +16,21 @@
     -moz-background-size: 100% 100%;
     -o-background-size: 100% 100%;
     background-size: 100% 100%;
-    background-color:#000000;
-    background-image: linear-gradient(315deg, #000000 0%, #7f8c8d 74%);
+    /* background-color:#000000;
+    background-image: linear-gradient(315deg, #000000 0%, #7f8c8d 74%); */
+    background-image: url("C:/Users/bomkumar/Documents/GitHub/Portfoli_OWN/src/components/TopSection/maxwell-nelson-taiuG8CPKAQ-unsplash.jpg");
 }
+.company
+{
+  margin-top:-15px;
+}
+.city{margin-top:-15px;}
 .colname
 {
-  margin-top: 5%;
+  margin-top: 10%;
+
 }
-.row1{height:200px;}
+.row1{height:50%;}
 .Scrolldown{align: center;
 margin-top: 90px;}
 @media screen and (min-width: 48em){
@@ -40,6 +47,7 @@ margin-top: 90px;}
   opacity: 0;
   transform: scale3d(0.5, 0.5, 0.5);
   animation: move 3s ease-out infinite;
+
 }
 
 .chevron:first-child {
@@ -58,6 +66,7 @@ margin-top: 90px;}
   height: 100%;
   width: 51%;
   background: #fff;
+
 }
 
 .chevron:before {
@@ -91,10 +100,10 @@ margin-top: 90px;}
 }
 .flip-card {
   background-color: transparent;
-  margin-top:5%;
-margin-left:20%;
-  width: 70%;
-  height: 200%;
+  margin-top:12%;
+margin-left:55%;
+  width: 60%;
+  height: 130%;
   perspective: 1000px;
 }
 
@@ -107,11 +116,7 @@ margin-left:20%;
   transition: transform 0.8s;
   transform-style: preserve-3d;
 }
-.info {margin-bottom: 0px; text-align: left;}
-.infoclass{text-align: left;padding-top: 14%;padding-left:5%;}
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-}
+
 
 .flip-card-front, .flip-card-back {
   position: absolute;
@@ -123,16 +128,118 @@ margin-left:20%;
 }
 
 .flip-card-front {
-  background-color: #485461;
-background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+  background-color: #000000;
+background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
   color: black;
 }
 
 
 .flip-card-back {
-  background-color: white;
-  color: white;
+  background-color: black;
+
+  transform: rotateY(180deg);
+
+}
+.flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
 }
 
 .imgadj{width:75%; height:90%;border-radius: 50%; margin-top:5%;margin-bottom: 5%;}
+
+
+
+
+
+.infoclass{text-align: left;padding-top: 5%;padding-left:5%;;}
+.list-group{height:50px;}
+/* Profile container */
+
+
+/* Profile sidebar */
+.profile-sidebar {
+  padding: 20px 0 10px 0;
+  background-color: black;
+}
+
+
+.profile-usertitle {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.profile-usertitle-name {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+
+.profile-usertitle-job {
+  text-transform: uppercase;
+  color: #5b9bd1;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.profile-userbuttons {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.profile-userbuttons .btn {
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 6px 15px;
+  margin-right: 5px;
+}
+
+.profile-userbuttons .btn:last-child {
+  margin-right: 0px;
+}
+
+.profile-usermenu {
+  margin-top: 30px;
+  color: White;
+}
+
+.profile-usermenu ul li {
+  width:400px;
+  border-bottom: 1px solid #f0f4f7;
+}
+
+.profile-usermenu ul li:last-child {
+  border-bottom: none;
+}
+
+.profile-usermenu ul li a {
+  color: #93a3b5;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.profile-usermenu ul li a i {
+  margin-right: 8px;
+  font-size: 14px;
+}
+
+
+
+.profile-usermenu ul li.active {
+  border-bottom: none;
+}
+
+.profile-usermenu ul li.active a {
+  color: #5b9bd1;
+  background-color: #f6f9fb;
+  border-left: 2px solid #5b9bd1;
+  margin-left: -2px;
+}
+
+/* Profile Content */
+.profile-content {
+  padding: 20px;
+  background: #fff;
+  min-height: 460px;
+}

@@ -13,6 +13,7 @@ library.add(fab, faCheckSquare, faCoffee)
 function App() {
   return (
     <div className="App">
+
       <TopSection/>
 
           <SkillProgress/>
@@ -20,7 +21,7 @@ function App() {
           <Timeline/>
           <Certifications/>
           <Footer/>
-    
+
     </div>
   );
 }

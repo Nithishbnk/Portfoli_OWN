@@ -5,25 +5,82 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import 'font-awesome/css/font-awesome.min.css';
 import AOS from "aos";
 import "aos/dist/aos.css";
+import $ from "jquery";
 class Certifications extends Component {
   state = {
     progress: 0,
+    x:0,
+    y:0,
+    z:0,
   }
-  componentDidMount() {
-  AOS.init({
-    duration : 2000
-  });
+  increaseBar() {
+
   let counter = 1;
+  let c1=1;
+  let c2=1;
+  let c3=1;
     const interval = setInterval(() => {
-        counter++;
+
         this.setState({
-            progress : counter
+            progress : counter,
+            x:c1,
+            y:c2,
+            z:c3
         })
-        if(counter == 60) {
+        if(counter == 90) {
             clearInterval(interval);
         }
-    }, 100);
+        else
+          {
+            counter=counter+1;
+          }
+          if(c1 == 40) {
+
+          }
+          else
+            {
+              c1++;
+            }
+            if(c2 == 89) {
+
+            }
+            else
+              {
+                c2++;
+              }
+              if(c3 == 50) {
+
+              }
+              else
+                {
+                  c3++;
+                }
+
+    }, 40);
 }
+componentDidMount() {
+AOS.init({
+  duration : 2000
+});
+console.log('incompdidmount')
+const interval = setInterval(() => {
+
+  var s = $(window).scrollTop(),
+  d = $(document).height(),
+  c = $(window).height();
+  var scrollPercent = (s / (d-c)) * 100;
+  var position = scrollPercent;
+
+                    if((position>=90)&&position<=100)
+                    {
+                      this.increaseBar(); clearInterval(interval);
+                    }
+
+}, 100);
+
+
+}
+
 
   render() {
 
@@ -79,7 +136,7 @@ class Certifications extends Component {
                                                         </div>
                                                   </div>
                                                   <div class="col-5">
-                                                      <Progress class="progress progress5" value={this.state.progress} animated color="Info" title="Saving the details">{this.state.progress}%</Progress>
+                                                      <Progress class="progress progress5" value={this.state.x} animated color="Info" title="Saving the details">{this.state.x}%</Progress>
                                                   </div>
                                                   <div class="col-2"></div>
                                               </div>
@@ -94,7 +151,7 @@ class Certifications extends Component {
                                                         </div>
                                                   </div>
                                                   <div class="col-5">
-                                                      <Progress class="progress progress5" value={this.state.progress} animated color="secondary" title="Saving the details">{this.state.progress}%</Progress>
+                                                      <Progress class="progress progress5" value={this.state.y} animated color="secondary" title="Saving the details">{this.state.y}%</Progress>
                                                   </div>
                                                   <div class="col-2"></div>
                                               </div>
@@ -109,7 +166,7 @@ class Certifications extends Component {
                                                         </div>
                                                   </div>
                                                   <div class="col-5">
-                                                      <Progress class="progress progress5" value={this.state.progress} animated color="secondary" title="Saving the details">{this.state.progress}%</Progress>
+                                                      <Progress class="progress progress5" value={this.state.z} animated color="info" title="Saving the details">{this.state.z}%</Progress>
                                                   </div>
                                                   <div class="col-2"></div>
                                               </div>

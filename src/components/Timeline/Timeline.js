@@ -35,16 +35,13 @@ class Timeline extends Component {
     <div data-aos="zoom-in"  data-aos-duration="3000">
     <div class="row align-items-center how-it-works d-flex">
       <div class="col-2 text-center bottom d-inline-flex justify-content-center align-items-center">
-        <div class="circle font-weight-bold">1</div>
+        <div class="circle font-weight-bold"> 2020-Present</div>
       </div>
       <div class="col-6">
-        <h5>Education 2016-2020</h5>
-        <p>SASTRA Deemed University • Thanjavur, Tamil Nadu
-08/2020<br/>
-Attended GUCON research paper publishing conference in DELHI.
-Article: Bias/variance analysis using optimized regression technique.Mr.M.Rajasekhar reddy, associate professor,
-SASTRA University.
-Research credit scholar.
+        <h5>Working at Sapient</h5>
+        <p>Associate Technology L1
+Publicis Sapient • Bengaluru, Karnataka
+
 </p>
       </div>
     </div>
@@ -61,13 +58,13 @@ Research credit scholar.
     </div>
     <div class="row align-items-center justify-content-end how-it-works d-flex">
       <div class="col-6 text-right">
-        <h5>Turned into a Develovper 2017</h5>
+        <h5>Turned into a Develovper</h5>
         <p>Salesforce Marketing Cloud Email Specialist. A/B test Developer. Comfortable in front end, back end stacks related to development work. Develop UIs with React, JavaScript, HTML and
 CSS. Participated in full lifecycle of development for Applications using Spring framework and
 RESTful APIs.</p>
       </div>
       <div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
-        <div class="circle font-weight-bold">2</div>
+        <div class="circle font-weight-bold">2017</div>
       </div>
     </div>
     <div class="row timeline">
@@ -83,13 +80,16 @@ RESTful APIs.</p>
     </div>
     <div class="row align-items-center how-it-works d-flex">
       <div class="col-2 text-center top d-inline-flex justify-content-center align-items-center">
-        <div class="circle font-weight-bold">3</div>
+        <div class="circle font-weight-bold">2016-2020</div>
       </div>
       <div class="col-6">
-        <h5>Working at Sapient 2020-Present</h5>
-        <p>Associate Technology L1
-Publicis Sapient • Bengaluru, Karnataka
-01/2020 - Present</p>
+        <h5>Education</h5>
+        <p>SASTRA Deemed University • Thanjavur, Tamil Nadu
+08/2020<br/>
+Attended GUCON research paper publishing conference in DELHI.<br/>
+Article: Bias/variance analysis using optimized regression technique.  Mr.M.Rajasekhar Reddy, Associate Professor,
+SASTRA University.
+Research Credit Scholar.</p>
       </div>
     </div>
     </div>

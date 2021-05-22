@@ -11,7 +11,7 @@
     position: relative
 }
 .extra{padding-right: 0;width:290px;}
-.head1{color:white;}
+.head1{color:white; font-size: 20px;}
 .progress1:after {
     content: "";
     width: 100%;
@@ -88,7 +88,7 @@
 }
 
 .progress1.blue .progress-left .progress-bar {
-    animation: loading-2 1.5s linear forwards 1.8s
+    animation: loading-3 1.5s linear forwards 1.8s
 }
 
 .progress1.yellow .progress-bar {
@@ -122,8 +122,8 @@
     }
 
     100% {
-        -webkit-transform: rotate(144deg);
-        transform: rotate(144deg)
+        -webkit-transform: rotate(114deg);
+        transform: rotate(114deg)
     }
 }
 
@@ -134,8 +134,8 @@
     }
 
     100% {
-        -webkit-transform: rotate(135deg);
-        transform: rotate(135deg)
+        -webkit-transform: rotate(105deg);
+        transform: rotate(105deg)
     }
 }
 .col-md-2

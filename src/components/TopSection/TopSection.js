@@ -24,7 +24,9 @@ class TopSection extends Component {
                                                             data-aos-duration="2000">
                                                         <h1>B. Nithish Kumar</h1></div>
                                                       </div>
-                                                      <div data-aos="fade-up" data-aos-anchor-placement="top-center"><p class="text-left text-capitalize">Software Develovper</p></div>
+                                                      <div data-aos="fade-up" data-aos-anchor-placement="top-center"><p class="text-left  font-weight-bolder text-capitalize">Software Develovper</p></div>
+                                                      <div data-aos="fade-down" data-aos-anchor-placement="top-center"><p class="text-left font-weight-bolder company text-capitalize">Publicis Sapient<br/>Bangalore</p></div>
+
 
                             </div>
                             <div class="col-md-6 colname1">
@@ -33,52 +35,61 @@ class TopSection extends Component {
                                                     <div class="flip-card-inner">
                                                     <div class="flip-card-back">
                                                     <div class="col-sm-12">
-                                                           <div class="row">
+                                                           <div class="row row1">
                                                                                           <div class="col infoclass">
 
-                                                                                              <table class="table">
-                                                                                                              <thead class="thead-light">
-                                                                                                              <tr>
 
-                                                                                                              </tr>
-                                                                                                            </thead>
-                                                                                                            <tbody>
-                                                                                                            <tr>
-                                                                                                              <th scope="row">
-                                                                                                                   <p class="info"><strong>Birth: </strong> 1999 </p>
-                                                                                                          </th>  </tr>
-                                                                                                          <tr>
-                                                                                                            <th scope="row">
-                                                                                                                 <p class="info"><strong>Location: </strong> India </p>
-                                                                                                        </th>  </tr>
-                                                                                                        <tr>
-                                                                                                          <th scope="row">
-                                                                                                               <p class="info"><strong>Citizenship: </strong> Indian </p>
-                                                                                                      </th>  </tr>
-
-                                                                                                              <tr>
-                                                                                                                <th scope="row">
-                                                                                                                     <p class="info"><strong>About: </strong> Web Designer / UI. </p>
-                                                                                                            </th>  </tr>
-                                                                                                              <tr>
-                                                                                                                <th scope="row">
-                                                                                                                      <p class="info"><strong>Skills: </strong>
-                                                                                                                          <span class="tags">ReactJS,</span>
-                                                                                                                          <span class="tags"> UI/UX,</span>
-                                                                                                                          <span class="tags"> A/B Test,</span>
-                                                                                                                          <span class="tags"> Salesforce</span>
-                                                                                                                      </p>
-                                                                                                          </th>    </tr>
-                                                                                                          <tr>
-                                                                                                            <th scope="row">
-                                                                                                                 <p class="info"><strong>Hobbies: </strong> Read, out with friends, listen to music, draw and learn new things. </p>
-                                                                                                        </th>  </tr>
-                                                                                                            </tbody>
-                                                                                              </table>
+<div class="container">
+<div class="row profile">
+<div class="col-md-12">
+  <div class="profile-sidebar">
 
 
+    <div class="profile-usertitle">
+      <div class="profile-usertitle-name">
+        Nithish Kumar
+      </div>
+      <div class="profile-usertitle-job">
+        Developer
+      </div>
+    </div>
 
-                                                                                          </div>
+    <div class="profile-userbuttons">
+      <a href="https://www.instagram.com/nithu_since_1999/"><button type="button" class="btn btn-success btn-sm">Follow</button></a>&nbsp;&nbsp;
+        <a href="https://www.instagram.com/nithu_since_1999/"><button type="button" class="btn btn-danger btn-sm">Message</button></a>
+    </div>
+
+    <div class="profile-usermenu">
+      <ul class="nav">
+        <li>
+          <a>
+          <i class="glyphicon glyphicon-home"></i>
+          Birth&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Jan 1999 </a>
+        </li>
+        <li>
+          <a>
+          <i class="glyphicon glyphicon-user"></i>
+          Location &nbsp;&nbsp;&nbsp;&nbsp;: Andhra Pradesh </a>
+        </li>
+        <li>
+          <a>
+          <i class="glyphicon glyphicon-ok"></i>
+          SkillSet&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : Front End, Full Stack, Cloud</a>
+        </li>
+        <li>
+          <a>
+          <i class="glyphicon glyphicon-flag"></i>
+          Citizenship : Indian </a>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</div>
+
+</div>
+</div>
+                                                                                        </div>
 
                                                                                       </div>
                                                                       </div>
@@ -88,6 +99,7 @@ class TopSection extends Component {
 
                                                     </div>
                                                     </div>
+
                                                     </div>
 
                             </div>

@@ -3,31 +3,87 @@ import "./CircleProgress.css"
 import { Progress } from 'reactstrap';
 import AOS from "aos";
 import "aos/dist/aos.css";
+import $ from 'jquery';
 class CircleProgress extends Component {
   state = {
     progress: 0,
+    x:0,
+    y:0,
+    z:0,
   }
-  componentDidMount() {
-  AOS.init({
-    duration : 2000
-  });
+  increaseBar() {
+
   let counter = 1;
+  let c1=1;
+  let c2=1;
+  let c3=1;
     const interval = setInterval(() => {
-        counter=counter+1;
+
         this.setState({
-            progress : counter
+            progress : counter,
+            x:c1,
+            y:c2,
+            z:c3
         })
         if(counter == 90) {
             clearInterval(interval);
         }
+        else
+          {
+            counter=counter+1;
+          }
+          if(c1 == 80) {
+
+          }
+          else
+            {
+              c1++;
+            }
+            if(c2 == 85) {
+
+            }
+            else
+              {
+                c2++;
+              }
+              if(c3 == 80) {
+
+              }
+              else
+                {
+                  c3++;
+                }
+
     }, 40);
+}
+componentDidMount() {
+AOS.init({
+  duration : 2000
+});
+console.log('incompdidmount')
+const interval = setInterval(() => {
+
+  var s = $(window).scrollTop(),
+  d = $(document).height(),
+  c = $(window).height();
+  var scrollPercent = (s / (d-c)) * 100;
+  var position = scrollPercent;
+  
+                    if((position>=24)&&position<=40)
+                    {
+                      this.increaseBar(); clearInterval(interval);
+                    }
+
+}, 100);
+
+
 }
 
   render() {
 
     return (
 <div class="Circleprogress">
-<div class=" head1 text-uppercase font-weight-bold font-italic"><h5>Emotional</h5></div>
+<div class=" head1 text-uppercase">Emotional</div>
 <div class="row justify-content-center text-center">
 <div class="col-md-2 justify-content-center text-center">
 </div>
@@ -39,10 +95,10 @@ class CircleProgress extends Component {
         <div class="circlename font-weight-bold text-capitalize">Creativity</div>
         </div>
     </div>
-    <div class="col-md-2 justify-content-center text-center align-self-center">
-        <div data-aos="flip-right"  data-aos-duration="3000">
-        <div class="progress progress1 yellow"> <span class="progress-left"> <span class="progress-bar"></span> </span> <span class="progress-right"> <span class="progress-bar"></span> </span>
-            <div class="progress-value">{this.state.progress}%</div>
+    <div class="col-md-2 justify-content-center text-center">
+       <div data-aos="flip-up"  data-aos-duration="3000">
+        <div class="progress progress1 blue"> <span class="progress-left"> <span class="progress-bar"></span> </span> <span class="progress-right"> <span class="progress-bar"></span> </span>
+            <div class="progress-value">{this.state.x}%</div>
         </div>
         <div class="circlename font-weight-bold text-capitalize">Content</div>
         </div>
@@ -50,15 +106,15 @@ class CircleProgress extends Component {
     <div class="col-md-2 justify-content-center text-center">
         <div data-aos="flip-left"  data-aos-duration="3000">
         <div class="progress progress1 blue"> <span class="progress-left"> <span class="progress-bar"></span> </span> <span class="progress-right"> <span class="progress-bar"></span> </span>
-            <div class="progress-value">{this.state.progress}%</div>
+            <div class="progress-value">{this.state.y}%</div>
         </div>
-        <div class="circlename font-weight-bold text-capitalize">Hardword</div>
+        <div class="circlename font-weight-bold text-capitalize">Hardwork</div>
         </div>
     </div>
     <div class="col-md-2 justify-content-center text-center">
-     <div data-aos="flip-down"  data-aos-duration="3000">
-        <div class="progress progress1 yellow"> <span class="progress-left"> <span class="progress-bar"></span> </span> <span class="progress-right"> <span class="progress-bar"></span> </span>
-            <div class="progress-value">{this.state.progress}%</div>
+       <div data-aos="flip-up"  data-aos-duration="3000">
+        <div class="progress progress1 blue"> <span class="progress-left"> <span class="progress-bar"></span> </span> <span class="progress-right"> <span class="progress-bar"></span> </span>
+            <div class="progress-value">{this.state.z}%</div>
         </div>
         <div class="circlename font-weight-bold text-capitalize">Communication</div>
         </div>

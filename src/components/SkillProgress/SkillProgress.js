@@ -10,21 +10,97 @@ import "aos/dist/aos.css";
 import $ from 'jquery';
 class SkillProgress extends Component {
   state = {
-    progress: 0,
+    progress1: 0,
+    progress2: 0,
+    x:0,
+    y:0,
+    z:0,
+    a:0,
+    b:0,
+    c:0,
+    d:0
+
   }
 
   increaseBar()
   {
-    let counter = 1;
+    let counter1 = 1;
+    let counter2 = 1;
+
+    let c=1;
+    let c1=1;
+    let c2=1;
+    let c3=1;
+    let c4=1;
+    let c5=1;
+    let c6=1;
+
       const interval = setInterval(() => {
-          counter++;
+
+
           this.setState({
-              progress : counter
+              progress1 : counter1,
+              progress2 : counter2,
+
+              x:c,
+              y:c1,
+              z:c2,
+              a:c3,
+              b:c4,
+              c:c5,
+              d:c6
           })
-          if(counter == 60) {
+          if(counter1 == 80) {
               clearInterval(interval);
           }
+          else {
+            counter1++;
+          }
+          if(counter2 == 50){
+
+          }
+          else {
+            counter2++;
+          }
+
+          if(c==75)
+          {}
+          else {
+            c++;
+          }
+          if(c1==75)
+          {}
+          else {
+            c1++;
+          }
+          if(c2==60)
+          {}
+          else {
+            c2++;
+          }
+          if(c3==70)
+          {}
+          else {
+            c3++;
+          }
+          if(c4==80)
+          {}
+          else {
+            c4++;
+          }
+          if(c5==50)
+          {}
+          else {
+            c5++;
+          }
+          if(c6==70)
+          {}
+          else {
+            c6++;
+          }
+
       }, 100);
+
   }
 
   componentDidMount() {
@@ -39,7 +115,7 @@ class SkillProgress extends Component {
     c = $(window).height();
     var scrollPercent = (s / (d-c)) * 100;
     var position = scrollPercent;
-    console.log('searching position'+position)
+    
                       if((position>=24)&&position<=40)
                       {
                         this.increaseBar(); clearInterval(interval);
@@ -58,7 +134,7 @@ class SkillProgress extends Component {
 <div class="Skills">
 <div data-aos="zoom-in-up"  data-aos-duration="3000">
 <div class="card card1 rounded-4" >
-  <div class="card-header text-uppercase font-weight-bold font-italic"><h4>Skill Set</h4></div>
+  <div class="card-header text-uppercase"><p>Skill Set</p></div>
   <div class="card-body">
 
           <div class="container con2">
@@ -69,25 +145,12 @@ class SkillProgress extends Component {
                                       <div class="row">
                                           <div class="col-4">
                                                 <div class="skill-title">
-                                                   <i class="fa fa-sm fa-fw fa-hashtag"></i>
+
                                                    <span>Java script</span>
                                                 </div>
                                           </div>
                                           <div class="col-8">
-                                              <Progress class="progress" value={this.state.progress} animated color="warning" title="Saving the details">{this.state.progress}%</Progress>
-                                          </div>
-                                      </div>
-                                </div>
-                                <div class="skill-progress">
-                                      <div class="row">
-                                          <div class="col-4">
-                                                <div class="skill-title">
-                                                   <i class="fa fa-html5" aria-hidden="true"></i>
-                                                   <span> HTML</span>
-                                                </div>
-                                          </div>
-                                          <div class="col-8">
-                                              <Progress class="progress" value={this.state.progress} animated color="info" title="Saving the details">{this.state.progress}%</Progress>
+                                              <Progress class="progress" value={this.state.progress1} animated  color="info"  title="Saving the details">{this.state.progress1}%</Progress>
                                           </div>
                                       </div>
                                 </div>
@@ -96,12 +159,25 @@ class SkillProgress extends Component {
                                           <div class="col-4">
                                                 <div class="skill-title">
 
-                                                   <i class="fa fa-css3" aria-hidden="true"></i>
-                                                   <span> CSS</span>
+                                                   <span> ReactJS</span>
                                                 </div>
                                           </div>
                                           <div class="col-8">
-                                              <Progress class="progress" value={this.state.progress} animated color="danger" title="Saving the details">{this.state.progress}%</Progress>
+                                              <Progress class="progress" value={this.state.progress2} animated color="info" title="Saving the details">{this.state.progress2}%</Progress>
+                                          </div>
+                                      </div>
+                                </div>
+                                <div class="skill-progress">
+                                      <div class="row">
+                                          <div class="col-4">
+                                                <div class="skill-title">
+
+
+                                                   <span> HTML</span>
+                                                </div>
+                                          </div>
+                                          <div class="col-8">
+                                              <Progress class="progress" value={this.state.x} animated  color="info"  title="Saving the details">{this.state.x}%</Progress>
                                           </div>
                                       </div>
                                 </div>
@@ -113,12 +189,12 @@ class SkillProgress extends Component {
                         <div class="row">
                             <div class="col-4">
                                   <div class="skill-title">
-                                     <i class="fa fa-sm fa-fw fa-hashtag"></i>
-                                     <span>C</span>
+
+                                     <span>CSS</span>
                                   </div>
                             </div>
                             <div class="col-8">
-                                <Progress class="progress" value={this.state.progress} animated color="info" title="Saving the details">{this.state.progress}%</Progress>
+                                <Progress class="progress" value={this.state.y} animated color="info"   title="Saving the details">{this.state.y}%</Progress>
                             </div>
                         </div>
                   </div>
@@ -126,12 +202,12 @@ class SkillProgress extends Component {
                         <div class="row">
                             <div class="col-4">
                                   <div class="skill-title">
-                                     <i class="fa fa-sm fa-fw fa-hashtag"></i>
-                                     <span>C++</span>
+
+                                     <span>C, C++</span>
                                   </div>
                             </div>
                             <div class="col-8">
-                                <Progress class="progress" value={this.state.progress} animated color="danger" title="Saving the details">{this.state.progress}%</Progress>
+                                <Progress class="progress" value={this.state.z} animated color="info" title="Saving the details">{this.state.z}%</Progress>
                             </div>
                         </div>
                   </div>
@@ -139,12 +215,12 @@ class SkillProgress extends Component {
                         <div class="row">
                             <div class="col-4">
                                   <div class="skill-title">
-                                     <i class="fa fa-sm fa-fw fa-hashtag"></i>
+
                                      <span>Java</span>
                                   </div>
                             </div>
                             <div class="col-8">
-                                <Progress class="progress" value={this.state.progress} title="Saving the details"/>
+                                <Progress class="progress"  animated value={this.state.a} color="info"  title="Saving the details">{this.state.a}%</Progress>
                             </div>
                         </div>
                   </div>
@@ -156,12 +232,12 @@ class SkillProgress extends Component {
                         <div class="row">
                             <div class="col-4">
                                   <div class="skill-title">
-                                     <i class="fa fa-sm fa-fw fa-hashtag"></i>
-                                     <span>C</span>
+
+                                     <span>SFMC</span>
                                   </div>
                             </div>
                             <div class="col-8">
-                                <Progress class="progress" value={this.state.progress} title="Saving the details"/>
+                                <Progress class="progress"  animated value={this.state.b} color="info"  title="Saving the details">{this.state.b}%</Progress>
                             </div>
                         </div>
                   </div>
@@ -169,12 +245,12 @@ class SkillProgress extends Component {
                         <div class="row">
                             <div class="col-4">
                                   <div class="skill-title">
-                                     <i class="fa fa-sm fa-fw fa-hashtag"></i>
-                                     <span>C++</span>
+
+                                     <span>AWS</span>
                                   </div>
                             </div>
                             <div class="col-8">
-                                <Progress class="progress" value={this.state.progress} title="Saving the details"/>
+                                <Progress class="progress"  animated value={this.state.c} color="info"   title="Saving the details">{this.state.c}%</Progress>
                             </div>
                         </div>
                   </div>
@@ -182,12 +258,12 @@ class SkillProgress extends Component {
                         <div class="row">
                             <div class="col-4">
                                   <div class="skill-title">
-                                     <i class="fa fa-sm fa-fw fa-hashtag"></i>
-                                     <span>Java</span>
+
+                                     <span>SQL</span>
                                   </div>
                             </div>
                             <div class="col-8">
-                                <Progress class="progress" value={this.state.progress} title="Saving the details"/>
+                                <Progress class="progress"  animated value={this.state.d} color="info"  title="Saving the details">{this.state.d}%</Progress>
                             </div>
                         </div>
                   </div>
