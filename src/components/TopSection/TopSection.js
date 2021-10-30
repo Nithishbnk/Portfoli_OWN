@@ -3,7 +3,6 @@ import  "./TopSection.css"
 import AOS from "aos";
 import "aos/dist/aos.css";
 import mypic from "./propic.jpeg";
-import headerback from "./propic.jpeg";
 class TopSection extends Component {
   componentDidMount() {
   AOS.init({
@@ -15,7 +14,7 @@ class TopSection extends Component {
     return (
 <div>
 
-      <div class="jumbotron  jumbotron-fluid" src={headerback}>
+      <div class="jumbotron  jumbotron-fluid">
         <div class="container con1">
                         <div class="row row1">
                             <div class="col-md-6 colname">
@@ -25,7 +24,7 @@ class TopSection extends Component {
                                                             data-aos-duration="2000">
                                                         <h1>B. Nithish Kumar</h1></div>
                                                       </div>
-                                                      <div data-aos="fade-up" data-aos-anchor-placement="top-center"><p class="text-left  font-weight-bolder text-capitalize">Software Develovper</p></div>
+                                                      <div data-aos="fade-up" data-aos-anchor-placement="top-center"><p class="text-left  font-weight-bolder text-capitalize">Software Developer</p></div>
                                                       <div data-aos="fade-down" data-aos-anchor-placement="top-center"><p class="text-left font-weight-bolder company text-capitalize">Publicis Sapient<br/>Bangalore</p></div>
 
 

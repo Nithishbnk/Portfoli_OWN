@@ -39,7 +39,7 @@ class Timeline extends Component {
       </div>
       <div class="col-6">
         <h5>Working at Sapient</h5>
-        <p>Associate Technology L1
+        <p>Associate Software Development Engineer 1
 Publicis Sapient • Bengaluru, Karnataka
 
 </p>
@@ -64,7 +64,7 @@ CSS. Participated in full lifecycle of development for Applications using Spring
 RESTful APIs.</p>
       </div>
       <div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
-        <div class="circle font-weight-bold">2017</div>
+        <div class="circle font-weight-bold">2020</div>
       </div>
     </div>
     <div class="row timeline">
