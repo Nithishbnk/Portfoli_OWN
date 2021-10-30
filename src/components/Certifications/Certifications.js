@@ -117,7 +117,7 @@ const interval = setInterval(() => {
                                                   <div class="col-3">
                                                         <div class="skill-title title font-weight-bold">
 
-                                                           <span>English</span>
+                                                           <span>Eng</span>
                                                         </div>
                                                   </div>
                                                   <div class="col-5">

@@ -146,11 +146,24 @@ class SkillProgress extends Component {
                                           <div class="col-4">
                                                 <div class="skill-title">
 
+                                                   <span>SFCC</span>
+                                                </div>
+                                          </div>
+                                          <div class="col-8">
+                                              <Progress class="progress" value={this.state.progress1} title="Saving the details">{this.state.progress1}%</Progress>
+                                          </div>
+                                      </div>
+                                </div>
+                                <div class="skill-progress">
+                                      <div class="row">
+                                          <div class="col-4">
+                                                <div class="skill-title">
+
                                                    <span>Java script</span>
                                                 </div>
                                           </div>
                                           <div class="col-8">
-                                              <Progress class="progress" value={this.state.progress1} animated  color="info"  title="Saving the details">{this.state.progress1}%</Progress>
+                                              <Progress class="progress" value={this.state.progress1} title="Saving the details">{this.state.progress1}%</Progress>
                                           </div>
                                       </div>
                                 </div>
@@ -163,7 +176,7 @@ class SkillProgress extends Component {
                                                 </div>
                                           </div>
                                           <div class="col-8">
-                                              <Progress class="progress" value={this.state.progress2} animated color="info" title="Saving the details">{this.state.progress2}%</Progress>
+                                              <Progress class="progress" value={this.state.progress2} title="Saving the details">{this.state.progress2}%</Progress>
                                           </div>
                                       </div>
                                 </div>
@@ -173,11 +186,11 @@ class SkillProgress extends Component {
                                                 <div class="skill-title">
 
 
-                                                   <span> HTML</span>
+                                                   <span>Web technologies</span>
                                                 </div>
                                           </div>
                                           <div class="col-8">
-                                              <Progress class="progress" value={this.state.x} animated  color="info"  title="Saving the details">{this.state.x}%</Progress>
+                                              <Progress class="progress" value={this.state.x}  title="Saving the details">{this.state.x}%</Progress>
                                           </div>
                                       </div>
                                 </div>
@@ -190,11 +203,11 @@ class SkillProgress extends Component {
                             <div class="col-4">
                                   <div class="skill-title">
 
-                                     <span>CSS</span>
+                                     <span>AB testing</span>
                                   </div>
                             </div>
                             <div class="col-8">
-                                <Progress class="progress" value={this.state.y} animated color="info"   title="Saving the details">{this.state.y}%</Progress>
+                                <Progress class="progress" value={this.state.y} title="Saving the details">{this.state.y}%</Progress>
                             </div>
                         </div>
                   </div>
@@ -207,7 +220,7 @@ class SkillProgress extends Component {
                                   </div>
                             </div>
                             <div class="col-8">
-                                <Progress class="progress" value={this.state.z} animated color="info" title="Saving the details">{this.state.z}%</Progress>
+                                <Progress class="progress" value={this.state.z} title="Saving the details">{this.state.z}%</Progress>
                             </div>
                         </div>
                   </div>
@@ -220,7 +233,7 @@ class SkillProgress extends Component {
                                   </div>
                             </div>
                             <div class="col-8">
-                                <Progress class="progress"  animated value={this.state.a} color="info"  title="Saving the details">{this.state.a}%</Progress>
+                                <Progress class="progress" value={this.state.a}  title="Saving the details">{this.state.a}%</Progress>
                             </div>
                         </div>
                   </div>
@@ -237,7 +250,7 @@ class SkillProgress extends Component {
                                   </div>
                             </div>
                             <div class="col-8">
-                                <Progress class="progress"  animated value={this.state.b} color="info"  title="Saving the details">{this.state.b}%</Progress>
+                                <Progress class="progress" value={this.state.b} title="Saving the details">{this.state.b}%</Progress>
                             </div>
                         </div>
                   </div>
@@ -250,7 +263,7 @@ class SkillProgress extends Component {
                                   </div>
                             </div>
                             <div class="col-8">
-                                <Progress class="progress"  animated value={this.state.c} color="info"   title="Saving the details">{this.state.c}%</Progress>
+                                <Progress class="progress" value={this.state.c}  title="Saving the details">{this.state.c}%</Progress>
                             </div>
                         </div>
                   </div>
@@ -263,7 +276,7 @@ class SkillProgress extends Component {
                                   </div>
                             </div>
                             <div class="col-8">
-                                <Progress class="progress"  animated value={this.state.d} color="info"  title="Saving the details">{this.state.d}%</Progress>
+                                <Progress class="progress" value={this.state.d} title="Saving the details">{this.state.d}%</Progress>
                             </div>
                         </div>
                   </div>

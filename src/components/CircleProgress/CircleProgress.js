@@ -116,7 +116,7 @@ const interval = setInterval(() => {
         <div class="progress progress1 blue"> <span class="progress-left"> <span class="progress-bar"></span> </span> <span class="progress-right"> <span class="progress-bar"></span> </span>
             <div class="progress-value">{this.state.z}%</div>
         </div>
-        <div class="circlename font-weight-bold text-capitalize">Communication</div>
+        <div class="circlename circlename-com font-weight-bold text-capitalize">Communication</div>
         </div>
     </div>
     <div class="col-md-2 justify-content-center text-center extra">

@@ -155,7 +155,12 @@
 @media only screen and (max-width: 767px) {
   .circlename
   {
-    padding-left: 70px;
+    padding-left: 60px;
+    text-align: left;
+  }
+  .circlename-com
+  {
+    padding-left: 35px;
     text-align: left;
   }
 }

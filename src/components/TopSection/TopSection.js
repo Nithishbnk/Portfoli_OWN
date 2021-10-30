@@ -3,6 +3,7 @@ import  "./TopSection.css"
 import AOS from "aos";
 import "aos/dist/aos.css";
 import mypic from "./propic.jpeg";
+import headerback from "./propic.jpeg";
 class TopSection extends Component {
   componentDidMount() {
   AOS.init({
@@ -14,7 +15,7 @@ class TopSection extends Component {
     return (
 <div>
 
-      <div class="jumbotron  jumbotron-fluid">
+      <div class="jumbotron  jumbotron-fluid" src={headerback}>
         <div class="container con1">
                         <div class="row row1">
                             <div class="col-md-6 colname">
@@ -55,8 +56,8 @@ class TopSection extends Component {
     </div>
 
     <div class="profile-userbuttons">
-      <a href="https://www.instagram.com/nithu_since_1999/"><button type="button" class="btn btn-success btn-sm">Follow</button></a>&nbsp;&nbsp;
-        <a href="https://www.instagram.com/nithu_since_1999/"><button type="button" class="btn btn-danger btn-sm">Message</button></a>
+      <a href="https://www.instagram.com/nithu_since_1999/" target="blank"><button type="button" class="btn btn-success btn-sm">Follow</button></a>&nbsp;&nbsp;
+        <a href="https://www.instagram.com/nithu_since_1999/" target="blank"><button type="button" class="btn btn-danger btn-sm">Message</button></a>
     </div>
 
     <div class="profile-usermenu">
