@@ -36,7 +36,7 @@ class TopSection extends Component {
                   </h1>{" "}
                   <span class="w3-tag w3-green">Travel</span>
                   <span class="w3-tag w3-blue">PC Gamer</span>
-                  <span class="w3-tag w3-red">Travel</span>
+                  <span class="w3-tag w3-red">Music</span>
                   <span class="w3-tag w3-black">Books</span>
                 </div>
               </div>
