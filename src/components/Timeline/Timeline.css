@@ -1,7 +1,7 @@
 .circle {
   padding: 13px 20px;
   border-radius: 50%;
-  background-color: #ED8D8D;
+  background-color: #ed8d8d;
   color: #fff;
   max-height: 50px;
   z-index: 2;
@@ -13,7 +13,7 @@
 .how-it-works.row .col-2::after {
   content: "";
   position: absolute;
-  border-left: 3px solid #ED8D8D;
+  border-left: 3px solid #ed8d8d;
   z-index: 1;
 }
 .how-it-works.row .col-2.bottom::after {
@@ -31,13 +31,12 @@
   top: 0;
 }
 
-
 .timeline div {
   padding: 0;
   height: 40px;
 }
 .timeline hr {
-  border-top: 3px solid #ED8D8D;
+  border-top: 3px solid #ed8d8d;
   margin: 0;
   top: 17px;
   position: relative;
@@ -47,7 +46,7 @@
   overflow: hidden;
 }
 .timeline .corner {
-  border: 3px solid #ED8D8D;
+  border: 3px solid #ed8d8d;
   width: 100%;
   position: relative;
   border-radius: 15px;
@@ -69,10 +68,19 @@
   left: 50%;
   top: calc(50% - 3px);
 }
-.Timeline{background-color: #000000;
-background-image: linear-gradient(315deg, #000000 0%, #958e69 74%);
-
+.Timeline {
+  border: none;
 }
-.col-6
-{color:white;}
-.Timeline{padding-top: 20px; padding-bottom: 30px;}
+.col-6 {
+  color: white;
+}
+.Timeline {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  margin-top: 3rem;
+}
+
+.head2 {
+  color: white;
+  text-align: center;
+}

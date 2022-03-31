@@ -20,7 +20,7 @@ ul, ol {
     padding: 0;
     margin: 0;
 }
-.summary{margin-top: 50px;}
+.summary{margin-top: 14px;}
 .social-inner {
     display: flex;
     flex-direction: column;
@@ -45,4 +45,22 @@ ul, ol {
     opacity: 0;
     visibility: hidden;
     transition: .22s ease;
+}
+
+
+.socialcol{
+    border:none !important;
+}
+
+.social-container{
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.footer-classic{
+    margin-top: 5rem;
+}
+
+.email{
+    font-size: 1rem;
 }

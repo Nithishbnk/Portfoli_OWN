@@ -74,7 +74,7 @@
     height: 90%;
     border-radius: 50%;
     background: #000;
-    font-size: 24px;
+    font-size: 15px;
     color: #fff;
     line-height: 135px;
     text-align: center;
@@ -166,8 +166,13 @@
 }
 .Circleprogress
 {
-  background-color: black;
   padding-bottom: 30px;
-  /* background-color: #000000;
-  background-image: linear-gradient(315deg, #000000 0%, #7f8c8d 74%); */
+}
+
+.conquered{
+    width: 100% !important;
+}
+
+.head1{
+    text-align: center;
 }
