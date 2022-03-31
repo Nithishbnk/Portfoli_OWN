@@ -18,11 +18,11 @@ function App() {
   // }
   // setTimeout(myGreeting, 5000);
 
-  $("#myModal").modal("show");
+  // $("#myModal").modal("show");
 
   return (
     <div className="App">
-      <div id="myModal" class="modal fade show">
+      {/* <div id="myModal" class="modal fade show">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
@@ -43,7 +43,7 @@ function App() {
             </div>
         </div>
     </div>
-</div>
+</div> */}
       <div class="common-footer">
         <TopSection />
         <SkillProgress /> 
