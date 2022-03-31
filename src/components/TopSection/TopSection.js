@@ -21,7 +21,23 @@ class TopSection extends Component {
                   data-aos-easing="ease-out-cubic"
                   data-aos-duration="2000"
                 >
-                  <h1>Bommireddy Nithish Kumar</h1>
+                  <h1>
+                    Bommireddy Nithish Kumar
+                    <h6><span class="w3-tag w3-black">D</span>
+                    <span class="w3-tag w3-black">E</span>
+                    <span class="w3-tag w3-black">V</span>
+                    <span class="w3-tag w3-black">E</span>
+                    <span class="w3-tag w3-black">L</span>
+                    <span class="w3-tag w3-black">O</span>
+                    <span class="w3-tag w3-black">P</span>
+                    <span class="w3-tag w3-black">E</span>
+                    <span class="w3-tag w3-black">R</span>
+                    </h6>
+                  </h1>{" "}
+                  <span class="w3-tag w3-green">Travel</span>
+                  <span class="w3-tag w3-blue">PC Gamer</span>
+                  <span class="w3-tag w3-red">Travel</span>
+                  <span class="w3-tag w3-black">Books</span>
                 </div>
               </div>
               <div data-aos="fade-up" data-aos-anchor-placement="top-center">
@@ -35,36 +51,37 @@ class TopSection extends Component {
                 </p>
               </div>
               <div data-aos="zoom-in" data-aos-anchor-placement="top-center">
-                <p class="text-left company text-capitalize">
-                  Bangalore
-                </p>
+                <p class="text-left company text-capitalize">Bangalore</p>
               </div>
               <div class="row no-gutters social-container1">
-              <div class="col socialcol">
-                <a
-                  class="social-inner1"
-                  href="https://m.facebook.com/nithish.bommireddy?ref=bookmarks"
-                >
-                  <span class="icon mdi mdi-facebook"></span>
-                  <span class="media">Facebook</span>
-                </a>
+                <div class="col socialcol">
+                  <a
+                    class="social-inner1"
+                    href="https://m.facebook.com/nithish.bommireddy?ref=bookmarks"
+                  >
+                    <span class="icon mdi mdi-facebook"></span>
+                    <span class="media">Facebook</span>
+                  </a>
+                </div>
+                <div class="col socialcol">
+                  <a
+                    class="social-inner1"
+                    href="https://www.instagram.com/nithu_since_1999/"
+                  >
+                    <span class="icon mdi mdi-instagram"></span>
+                    <span class="media">instagram</span>
+                  </a>
+                </div>
+                <div class="col socialcol">
+                  <a
+                    class="social-inner1"
+                    href="https://www.linkedin.com/in/nithish-kumar-bnk/"
+                  >
+                    <span class="icon mdi "></span>
+                    <span class="media">linkedin</span>
+                  </a>
+                </div>
               </div>
-              <div class="col socialcol">
-                <a
-                  class="social-inner1"
-                  href="https://www.instagram.com/nithu_since_1999/"
-                >
-                  <span class="icon mdi mdi-instagram"></span>
-                  <span class="media">instagram</span>
-                </a>
-              </div>
-              <div class="col socialcol">
-                <a class="social-inner1" href="https://www.linkedin.com/in/nithish-kumar-bnk/">
-                  <span class="icon mdi "></span>
-                  <span class="media">linkedin</span>
-                </a>
-              </div>
-            </div>
             </div>
             <div class="col-md-6 colname1">
               <div class="flip-card">

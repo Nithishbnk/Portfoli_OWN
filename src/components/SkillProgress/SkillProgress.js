@@ -99,7 +99,7 @@ class SkillProgress extends Component {
       var scrollPercent = (s / (d - c)) * 100;
       var position = scrollPercent;
 
-      if (position >= 24 && position <= 40) {
+      if (position >= 20 && position <= 40) {
         this.increaseBar();
         clearInterval(interval);
       }

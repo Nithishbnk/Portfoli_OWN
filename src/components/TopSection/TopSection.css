@@ -335,3 +335,7 @@ border: 1px solid rgba(179, 167, 167, 0.3);
 .media{
   color:black;
 }
+
+.w3-tag{
+  margin-right: 5px;
+}

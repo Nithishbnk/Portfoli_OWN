@@ -116,3 +116,11 @@ border: 1px solid rgba(179, 167, 167, 0.3);
     margin-left: 2rem;
   }
 }
+
+.lang:hover {
+    transform: scale(1.1); 
+}
+
+.cert:hover {
+  transform: scale(1.1);
+}
