@@ -25,17 +25,46 @@ class TopSection extends Component {
                 </div>
               </div>
               <div data-aos="fade-up" data-aos-anchor-placement="top-center">
-                <p class="text-left  font-weight-bolder text-capitalize">
-                  Software Developer
+                <p class="text-left  text-capitalize">
+                  Associate Software Development Engineer 2
                 </p>
               </div>
               <div data-aos="fade-down" data-aos-anchor-placement="top-center">
-                <p class="text-left font-weight-bolder company text-capitalize">
+                <p class="text-left company text-capitalize">
                   Publicis Sapient
-                  <br />
+                </p>
+              </div>
+              <div data-aos="zoom-in" data-aos-anchor-placement="top-center">
+                <p class="text-left company text-capitalize">
                   Bangalore
                 </p>
               </div>
+              <div class="row no-gutters social-container1">
+              <div class="col socialcol">
+                <a
+                  class="social-inner1"
+                  href="https://m.facebook.com/nithish.bommireddy?ref=bookmarks"
+                >
+                  <span class="icon mdi mdi-facebook"></span>
+                  <span class="media">Facebook</span>
+                </a>
+              </div>
+              <div class="col socialcol">
+                <a
+                  class="social-inner1"
+                  href="https://www.instagram.com/nithu_since_1999/"
+                >
+                  <span class="icon mdi mdi-instagram"></span>
+                  <span class="media">instagram</span>
+                </a>
+              </div>
+              <div class="col socialcol">
+                <a class="social-inner1" href="https://www.linkedin.com/in/nithish-kumar-bnk/">
+                  <span class="icon mdi "></span>
+                  <span class="media">linkedin</span>
+                </a>
+              </div>
+            </div>
             </div>
             <div class="col-md-6 colname1">
               <div class="flip-card">
@@ -59,7 +88,7 @@ class TopSection extends Component {
 
                                   <div class="profile-userbuttons">
                                     <a
-                                      href="https://www.instagram.com/nithu_since_1999/"
+                                      href="https://www.linkedin.com/in/nithish-kumar-bnk/"
                                       target="blank"
                                     >
                                       <button type="button" class="btn">
@@ -88,7 +117,7 @@ class TopSection extends Component {
                                         <a>
                                           <i class="glyphicon glyphicon-ok"></i>
                                           SkillSet&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                          : Front End, Full Stack, Cloud
+                                          : Web Technologies
                                         </a>
                                       </li>
                                       <li>

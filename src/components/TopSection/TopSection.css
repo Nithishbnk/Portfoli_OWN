@@ -1,39 +1,43 @@
-.name{
-    text-align: left;
+.name {
+  text-align: left;
 }
-@media screen and (min-width: 48em){
-    .name{
-        text-align: justify;
-    }
+@media screen and (min-width: 48em) {
+  .name {
+    text-align: justify;
+  }
 }
-.con1
-{height:80%;}
+.con1 {
+  height: 80%;
+}
 .jumbotron {
-    min-height: 620px;
-    margin-bottom:0;
-     background-size: 100% 100%;
-    background: transparent;
-    
+  min-height: 620px;
+  margin-bottom: 0;
+  background-size: 100% 100%;
+  background: transparent;
 }
-.company
-{
-  margin-top:-15px;
+.company {
+  margin-top: -15px;
 }
-.city{margin-top:-15px;}
-.colname
-{
+.city {
+  margin-top: -15px;
+}
+.colname {
   margin-top: 10%;
   color: white;
-
 }
-.row1{height:50%;}
-.Scrolldown{text-align: center;
-margin-top: 90px;}
-@media screen and (min-width: 48em){
-  .Scrolldown{text-align: center;
+.row1 {
+  height: 50%;
+}
+.Scrolldown {
+  text-align: center;
   margin-top: 90px;
-  padding-left:30px;
 }
+@media screen and (min-width: 48em) {
+  .Scrolldown {
+    text-align: center;
+    margin-top: 90px;
+    padding-left: 30px;
+  }
 }
 
 .chevron {
@@ -43,7 +47,6 @@ margin-top: 90px;}
   opacity: 0;
   transform: scale3d(0.5, 0.5, 0.5);
   animation: move 3s ease-out infinite;
-
 }
 
 .chevron:first-child {
@@ -56,13 +59,12 @@ margin-top: 90px;}
 
 .chevron:before,
 .chevron:after {
-  content: ' ';
+  content: " ";
   position: absolute;
   top: 0;
   height: 100%;
   width: 51%;
   background: #fff;
-
 }
 
 .chevron:before {
@@ -79,7 +81,6 @@ margin-top: 90px;}
 @keyframes move {
   25% {
     opacity: 1;
-
   }
   33% {
     opacity: 1;
@@ -96,13 +97,12 @@ margin-top: 90px;}
 }
 .flip-card {
   background-color: transparent;
-  margin-top:12%;
-margin-left:55%;
+  margin-top: 12%;
+  margin-left: 55%;
   width: 60%;
-  height: 130%;
+  height: 82%;
   perspective: 1000px;
 }
-
 
 .flip-card-inner {
   position: relative;
@@ -113,8 +113,8 @@ margin-left:55%;
   transform-style: preserve-3d;
 }
 
-
-.flip-card-front, .flip-card-back {
+.flip-card-front,
+.flip-card-back {
   position: absolute;
   border-radius: 35px;
   width: 100%;
@@ -124,41 +124,53 @@ margin-left:55%;
 }
 
 .flip-card-front {
-  background: rgba(82, 82, 79, 0.18);
-  border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(2.5px);
-  -webkit-backdrop-filter: blur(2.5px);
-  border: 1px solid rgba(82, 82, 79, 0.55);
+ /* From https://css.glass */
+background: rgba(179, 167, 167, 0.22);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(0px);
+-webkit-backdrop-filter: blur(0px);
+border: 1px solid rgba(179, 167, 167, 0.3);
   color: black;
 }
 
-
 .flip-card-back {
   transform: rotateY(180deg);
-
+  /* From https://css.glass */
+background: rgba(179, 167, 167, 0.22);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(0px);
+-webkit-backdrop-filter: blur(0px);
+border: 1px solid rgba(179, 167, 167, 0.3);
+  color: black;
 }
 .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
 }
 
-.imgadj{width:75%; height:90%;border-radius: 50%; margin-top:5%;margin-bottom: 5%;}
+.imgadj {
+  width: 75%;
+  height: 90%;
+  border-radius: 50%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
 
-
-
-
-
-.infoclass{text-align: left;padding-top: 5%;padding-left:5%;;}
-.list-group{height:50px;}
+.infoclass {
+  text-align: left;
+  padding-top: 5%;
+  padding-left: 5%;
+}
+.list-group {
+  height: 50px;
+}
 /* Profile container */
-
 
 /* Profile sidebar */
 .profile-sidebar {
   padding: 20px 0 10px 0;
-
 }
-
 
 .profile-usertitle {
   text-align: center;
@@ -174,7 +186,7 @@ margin-left:55%;
 
 .profile-usertitle-job {
   text-transform: uppercase;
-  color: #5b9bd1;
+  color: deepskyblue;
   font-size: 12px;
   font-weight: 600;
   margin-bottom: 15px;
@@ -203,7 +215,7 @@ margin-left:55%;
 }
 
 .profile-usermenu ul li {
-  width:400px;
+  width: 400px;
   border-bottom: 1px solid #f0f4f7;
 }
 
@@ -221,8 +233,6 @@ margin-left:55%;
   margin-right: 8px;
   font-size: 14px;
 }
-
-
 
 .profile-usermenu ul li.active {
   border-bottom: none;
@@ -242,14 +252,14 @@ margin-left:55%;
   min-height: 460px;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
   .flip-card {
     margin-left: 20%;
     margin-bottom: 50%;
   }
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
   .profile-usertitle {
     margin-top: 25%;
   }
@@ -261,12 +271,67 @@ margin-left:55%;
   }
 }
 
-.btn{
+.btn {
   border: 3px solid white;
-    color: white;
+  color: white;
 }
 
-.btn:hover{
+.btn:hover {
   border: 3px solid white;
-    background-color: grey;
+  background-color: grey;
+}
+
+.social-container1 {
+  padding-bottom: 0px;
+  margin-top: 7rem;
+background: rgba(179, 167, 167, 0.22);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(0px);
+-webkit-backdrop-filter: blur(0px);
+border: 1px solid rgba(179, 167, 167, 0.3);
+  color: black;
+}
+
+.socialcol:hover {
+  background-color: grey;
+  border-radius: 12px;
+  text-decoration: none;
+}
+
+.social-inner1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 23px;
+  font: 900 13px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+  .flip-card {
+    width: 60%;
+    height: 142%;
+  }
+  .flip-card-front,
+  .flip-card-back {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+
+  .jumbotron {
+    margin-bottom: 3rem;
+  }
+}
+
+.media{
+  color:black;
 }

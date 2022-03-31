@@ -114,7 +114,7 @@ class SkillProgress extends Component {
             <div class="card-header text-uppercase">
               <p>Skill Set</p>
             </div>
-            <div class="card-body">
+            <div class="card-body skill-body">
               <div class="container con2">
                 <div class="row">
                   <div class="col-md-4">
@@ -141,7 +141,7 @@ class SkillProgress extends Component {
                         <div class="row">
                           <div class="col-4">
                             <div class="skill-title">
-                              <span>Java script</span>
+                              <span>ReactJS</span>
                             </div>
                           </div>
                           <div class="col-8">
@@ -159,7 +159,7 @@ class SkillProgress extends Component {
                         <div class="row">
                           <div class="col-4">
                             <div class="skill-title">
-                              <span> ReactJS</span>
+                              <span>NextJS</span>
                             </div>
                           </div>
                           <div class="col-8">
@@ -177,7 +177,7 @@ class SkillProgress extends Component {
                         <div class="row">
                           <div class="col-4">
                             <div class="skill-title">
-                              <span>Web technologies</span>
+                              <span>SFMC</span>
                             </div>
                           </div>
                           <div class="col-8">
@@ -257,7 +257,7 @@ class SkillProgress extends Component {
                         <div class="row">
                           <div class="col-4">
                             <div class="skill-title">
-                              <span>SFMC</span>
+                              <span>RestfulAPIS</span>
                             </div>
                           </div>
                           <div class="col-8">

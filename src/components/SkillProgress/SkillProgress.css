@@ -50,3 +50,10 @@
 .card{
   background-color: none !important;
 }
+
+@media screen and (max-width: 600px) {
+  .skill-body{
+    padding-right: 0;
+    padding-left: 1rem;
+  }
+}

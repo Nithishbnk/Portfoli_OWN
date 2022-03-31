@@ -28,15 +28,15 @@ class CircleProgress extends Component {
       } else {
         counter = counter + 1;
       }
-      if (c1 == 80) {
+      if (c1 == 90) {
       } else {
         c1++;
       }
-      if (c2 == 85) {
+      if (c2 == 65) {
       } else {
         c2++;
       }
-      if (c3 == 80) {
+      if (c3 == 20) {
       } else {
         c3++;
       }
@@ -63,7 +63,7 @@ class CircleProgress extends Component {
   render() {
     return (
       <div class="Circleprogress">
-        <div class=" head1 text-uppercase">Emotional</div>
+        <div class=" head1 text-uppercase card-header">Emotional</div>
         <div class="row justify-content-center text-center conquered">
           <div class="col-md-2 justify-content-center text-center"></div>
           <div class="col-md-2 justify-content-center text-center">
@@ -78,7 +78,7 @@ class CircleProgress extends Component {
                   {" "}
                   <span class="progress-bar"></span>{" "}
                 </span>
-                <div class="progress-value"> Creativity</div>
+                <div class="progress-value"> Creativity {this.state.progress}%</div>
                 {/* <div class="progress-value">{this.state.progress}%</div> */}
               </div>
               {/* <div class="circlename font-weight-bold text-capitalize">
@@ -98,7 +98,7 @@ class CircleProgress extends Component {
                   {" "}
                   <span class="progress-bar"></span>{" "}
                 </span>
-                <div class="progress-value">Content</div>
+                <div class="progress-value">Content {this.state.progress}%</div>
                 {/* <div class="progress-value">Content{this.state.x}%</div> */}
               </div>
               {/* <div class="circlename font-weight-bold text-capitalize">
@@ -118,7 +118,7 @@ class CircleProgress extends Component {
                   {" "}
                   <span class="progress-bar"></span>{" "}
                 </span>
-                <div class="progress-value">Hardwork</div>
+                <div class="progress-value">Hardwork {this.state.progress}%</div>
                 {/* <div class="progress-value">Hardwork{this.state.y}%</div> */}
               </div>
               {/* <div class="circlename font-weight-bold text-capitalize">
@@ -138,7 +138,7 @@ class CircleProgress extends Component {
                   {" "}
                   <span class="progress-bar"></span>{" "}
                 </span>
-                <div class="progress-value">Communication</div>
+                <div class="progress-value"><span>Interact {this.state.progress}%</span></div>
                 {/* <div class="progress-value">{this.state.z}%</div> */}
               </div>
               {/* <div class="circlename circlename-com font-weight-bold text-capitalize">

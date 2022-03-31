@@ -35,7 +35,7 @@ class Timeline extends Component {
     <div data-aos="zoom-in"  data-aos-duration="3000">
     <div class="row align-items-center how-it-works d-flex">
       <div class="col-2 text-center bottom d-inline-flex justify-content-center align-items-center">
-        <div class="circle font-weight-bold"> 2020-Present</div>
+        <div class="circle font-weight-bold tochange"> 2020-Present</div>
       </div>
       <div class="col-6">
         <h5>Working at Sapient</h5>
@@ -80,7 +80,7 @@ RESTful APIs.</p>
     </div>
     <div class="row align-items-center how-it-works d-flex">
       <div class="col-2 text-center top d-inline-flex justify-content-center align-items-center">
-        <div class="circle font-weight-bold">2016-2020</div>
+        <div class="circle font-weight-bold tochange">2016-2020</div>
       </div>
       <div class="col-6">
         <h5>Education</h5>

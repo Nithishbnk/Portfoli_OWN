@@ -84,3 +84,9 @@
   color: white;
   text-align: center;
 }
+
+@media screen and (max-width: 600px) {
+  .tochange{
+    font-size:0.7rem;
+  }
+}

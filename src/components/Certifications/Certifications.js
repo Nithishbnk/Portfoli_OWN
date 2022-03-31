@@ -73,7 +73,7 @@ class Certifications extends Component {
                 <div class="card-header Name1 font-weight-bold">
                   Certifications
                 </div>
-                <div class="card-body">
+                <div class="card-body certbody">
                   <div class="certifications">
                     Salesforce B2C Commerce Developer
                   </div>
@@ -89,7 +89,7 @@ class Certifications extends Component {
           <div class="col-md-6 coltwo">
             <div data-aos="zoom-in-left">
               <div class="card lang">
-                <div class="card-header Name1 font-weight-bold font-italic">
+                <div class="card-header Name1 font-weight-bold">
                   Languages Known
                 </div>
                 <div class="card-body">
@@ -97,7 +97,7 @@ class Certifications extends Component {
                     <div class="row">
                       <div class="col-2"></div>
                       <div class="col-3">
-                        <div class="skill-title title font-weight-bold">
+                        <div class="skill-title title">
                           <span>English</span>
                         </div>
                       </div>
@@ -119,7 +119,7 @@ class Certifications extends Component {
                     <div class="row">
                       <div class="col-2"></div>
                       <div class="col-3">
-                        <div class="skill-title title font-weight-bold">
+                        <div class="skill-title title">
                           <span>Hindi</span>
                         </div>
                       </div>
@@ -141,7 +141,7 @@ class Certifications extends Component {
                     <div class="row">
                       <div class="col-2"></div>
                       <div class="col-3">
-                        <div class="skill-title title font-weight-bold">
+                        <div class="skill-title title">
                           <span>Telugu</span>
                         </div>
                       </div>
@@ -163,7 +163,7 @@ class Certifications extends Component {
                     <div class="row">
                       <div class="col-2"></div>
                       <div class="col-3">
-                        <div class="skill-title title font-weight-bold">
+                        <div class="skill-title title">
                           <span>Tamil</span>
                         </div>
                       </div>
