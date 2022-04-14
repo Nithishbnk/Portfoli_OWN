@@ -25,6 +25,7 @@
   margin-top: 10%;
   color: white;
 }
+
 .row1 {
   height: 50%;
 }
@@ -95,181 +96,6 @@
     transform: translateY(55px) scale3d(0.5, 0.5, 0.5);
   }
 }
-.flip-card {
-  background-color: transparent;
-  margin-top: 12%;
-  margin-left: 55%;
-  width: 60%;
-  height: 82%;
-  perspective: 1000px;
-}
-
-.flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
-}
-
-.flip-card-front,
-.flip-card-back {
-  position: absolute;
-  border-radius: 35px;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-}
-
-.flip-card-front {
- /* From https://css.glass */
-background: rgba(179, 167, 167, 0.22);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(0px);
--webkit-backdrop-filter: blur(0px);
-border: 1px solid rgba(179, 167, 167, 0.3);
-  color: black;
-}
-
-.flip-card-back {
-  transform: rotateY(180deg);
-  /* From https://css.glass */
-background: rgba(179, 167, 167, 0.22);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(0px);
--webkit-backdrop-filter: blur(0px);
-border: 1px solid rgba(179, 167, 167, 0.3);
-  color: black;
-}
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-}
-
-.imgadj {
-  width: 75%;
-  height: 90%;
-  border-radius: 50%;
-  margin-top: 5%;
-  margin-bottom: 5%;
-}
-
-.infoclass {
-  text-align: left;
-  padding-top: 5%;
-  padding-left: 5%;
-}
-.list-group {
-  height: 50px;
-}
-/* Profile container */
-
-/* Profile sidebar */
-.profile-sidebar {
-  padding: 20px 0 10px 0;
-}
-
-.profile-usertitle {
-  text-align: center;
-  margin-top: 20px;
-}
-
-.profile-usertitle-name {
-  color: white;
-  font-size: 20px;
-  font-weight: 600;
-  margin-bottom: 7px;
-}
-
-.profile-usertitle-job {
-  text-transform: uppercase;
-  color: deepskyblue;
-  font-size: 12px;
-  font-weight: 600;
-  margin-bottom: 15px;
-}
-
-.profile-userbuttons {
-  text-align: center;
-  margin-top: 10px;
-}
-
-.profile-userbuttons .btn {
-  text-transform: uppercase;
-  font-size: 11px;
-  font-weight: 600;
-  padding: 6px 15px;
-  margin-right: 5px;
-}
-
-.profile-userbuttons .btn:last-child {
-  margin-right: 0px;
-}
-
-.profile-usermenu {
-  margin-top: 30px;
-  color: White;
-}
-
-.profile-usermenu ul li {
-  width: 400px;
-  border-bottom: 1px solid #f0f4f7;
-}
-
-.profile-usermenu ul li:last-child {
-  border-bottom: none;
-}
-
-.profile-usermenu ul li a {
-  color: #93a3b5;
-  font-size: 14px;
-  font-weight: 400;
-}
-
-.profile-usermenu ul li a i {
-  margin-right: 8px;
-  font-size: 14px;
-}
-
-.profile-usermenu ul li.active {
-  border-bottom: none;
-}
-
-.profile-usermenu ul li.active a {
-  color: #5b9bd1;
-  background-color: #f6f9fb;
-  border-left: 2px solid #5b9bd1;
-  margin-left: -2px;
-}
-
-/* Profile Content */
-.profile-content {
-  padding: 20px;
-  background: #fff;
-  min-height: 460px;
-}
-
-@media screen and (max-width: 600px) {
-  .flip-card {
-    margin-left: 20%;
-    margin-bottom: 50%;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .profile-usertitle {
-    margin-top: 25%;
-  }
-  .profile-userbuttons {
-    display: none;
-  }
-  .profile-usermenu {
-    display: none;
-  }
-}
 
 .btn {
   border: 3px solid white;
@@ -338,4 +164,74 @@ border: 1px solid rgba(179, 167, 167, 0.3);
 
 .w3-tag{
   margin-right: 5px;
+}
+
+@media screen and (max-width: 700px) {
+  .colname1 {
+    height: 40rem;
+  }
+}
+
+.cube {
+  animation: rotate 14000ms linear infinite;
+  bottom: 0;
+  height: 155px;
+  left: 0;
+  /* margin: auto; */
+  position: absolute;
+  transform-style: preserve-3d;
+  right: 0;
+  top: 0;
+  width: 155px;
+  margin-top: 15rem;
+  margin-left: 23rem;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotateY(360deg) rotateX(720deg) rotateZ(1080deg);
+  }
+}
+
+.face {
+  height: 180%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 180%;
+}
+
+.front {
+  background: #333;
+  transform: translateZ(140px);
+}
+
+.back {
+  background: #444;
+  transform: translateZ(-140px);
+}
+
+.left {
+  background: #555;
+  transform: translateX(-140px) rotateY(90deg);
+}
+
+.right {
+  background: #666;
+  transform: translateX(140px) rotateY(90deg);
+}
+
+.top {
+  background: #777;
+  transform: translateY(-140px) rotateX(90deg);
+}
+
+.bottom {
+  background: #888;
+  transform: translateY(140px) rotateX(90deg);
+}
+
+.heropicture{
+  width: 100%;
+  height: 100%;
 }
